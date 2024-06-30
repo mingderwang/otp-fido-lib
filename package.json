@@ -1,0 +1,32 @@
+{
+  "name": "otp-fido-lib",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "",
+  "scripts": {
+    "build": "bun run build.mjs",
+    "prepublishOnly": "bun test && bun run build",
+    "test": "bun test"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "bun",
+    "test"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mingderwang/otp-fido-lib#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mingderwang/potp-fido-lib.git"
+  },
+  "bugs": "https://github.com/mingderwang/otp-fido-lib/issues",
+  "author": "Ming-der Wang <mingderwang@gmail.com>",
+  "devDependencies": {
+    "bun-plugin-dts": "^0.2.1",
+    "@types/bun": "^1.0.0",
+    "typescript": "^5.2.2"
+  }
+}
